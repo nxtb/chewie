@@ -1,3 +1,9 @@
+## 1.3.3
+* ⬆️ [#634](https://github.com/fluttercommunity/chewie/pull/634): chore: Move very_good_analysis to dev_dependencies. Thanks [JCQuintas](https://github.com/JCQuintas).
+
+## 1.3.2
+* ⬆️ [#626](https://github.com/fluttercommunity/chewie/pull/626): Added customizable timer to hide controls. Thanks [BuginRug](https://github.com/BuginRug).
+
 ## 1.3.1
 * ⬆️ [#617](https://github.com/fluttercommunity/chewie/pull/617): Allow video zooming with InteractiveViewer widget. Thanks [jmsanc](https://github.com/jmsanc).
 
@@ -10,8 +16,8 @@
   
   ```dart
   typedef ChewieRoutePageBuilder = Widget Function(
-  	   BuildContext context,
-  	   Animation<double> animation,
+  	  BuildContext context,
+  	  Animation<double> animation,
       Animation<double> secondaryAnimation,
       _ChewieControllerProvider controllerProvider,
   );
@@ -21,14 +27,14 @@
   
   ```dart
   typedef ChewieRoutePageBuilder = Widget Function(
-  	   BuildContext context,
-  	   Animation<double> animation,
+  	  BuildContext context,
+  	  Animation<double> animation,
       Animation<double> secondaryAnimation,
       ChewieControllerProvider controllerProvider,
   );
   ```
   
-  TL;DR: We had to make `_ChewieControllerProvider` public.
+  TL;DR: We had to make `_ChewieControllerProvider` public.
   
 * 🛠️ Fixed lint and formatting problems
 * Under New Management under the auspices of [Flutter Community](https://github.com/fluttercommunity), and new maintainers [diegotori](https://github.com/diegotori) and [maherjaafar](https://github.com/maherjaafar).
